@@ -1,24 +1,26 @@
 package dev.elma.billing_services.entities;
 
 import dev.elma.billing_services.models.Customer;
-import jakarta.persistence.Entity;
+import dev.elma.billing_services.models.Product;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.Transient;
 
 import java.util.Date;
 
 @Entity
-@AllArgsConstructor @NoArgsConstructor
-
-@Data
-
+@AllArgsConstructor @NoArgsConstructor @Data @Builder
 public class ProductItem {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Date BillingDate;
-    private Long CustomerId;
+    private Long productId;
     @Transient
-    private Customer customer;
+    private Product product;
+    private Double price;
+    private int quantity;
+    @ManyToOne
+    private Bill bill;
 
 }

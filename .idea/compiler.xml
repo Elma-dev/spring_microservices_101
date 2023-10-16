@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="inventory_microservices" />
+        <module name="eurek-discovery-service" />
         <module name="gateway-service" />
         <module name="customer-services" />
         <module name="billing_services" />
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="billing_services" options="-parameters" />
       <module name="customer-services" options="-parameters" />
+      <module name="eurek-discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="inventory_microservices" options="-parameters" />
     </option>

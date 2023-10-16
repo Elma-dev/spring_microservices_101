@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/billing_services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/customer-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eurek-discovery-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory_microservices/src/main/java" charset="UTF-8" />

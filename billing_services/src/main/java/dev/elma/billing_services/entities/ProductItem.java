@@ -1,5 +1,6 @@
 package dev.elma.billing_services.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import dev.elma.billing_services.models.Customer;
 import dev.elma.billing_services.models.Product;
 import jakarta.persistence.*;
@@ -21,6 +22,7 @@ public class ProductItem {
     private Double price;
     private int quantity;
     @ManyToOne
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private Bill bill;
 
 }

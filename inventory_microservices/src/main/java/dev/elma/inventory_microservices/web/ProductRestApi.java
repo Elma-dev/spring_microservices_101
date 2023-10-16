@@ -4,6 +4,7 @@ import dev.elma.inventory_microservices.entities.Product;
 import dev.elma.inventory_microservices.repositories.ProductJpaRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,5 +18,10 @@ public class ProductRestApi {
     @GetMapping("/all")
     public List<Product> allProducts(){
         return productJpaRepository.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public Product findProduvctById(@PathVariable Long id){
+        return productJpaRepository.findById(id).orElseThrow();
     }
 }

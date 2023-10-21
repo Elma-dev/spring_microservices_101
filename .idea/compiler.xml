@@ -7,15 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="inventory_service" />
+        <module name="gateway-service" />
         <module name="configuration_ms" />
+        <module name="billing_services" />
+        <module name="customer-services" />
+        <module name="inventory_microservices" />
+        <module name="eurek-discovery-service" />
+      </profile>
+      <profile name="Annotation profile for Customer_service" enabled="true">
+        <sourceOutputDir name="../Customer_service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../Customer_service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="customer_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="billing_services" target="17" />
-      <module name="customer-services" target="17" />
-      <module name="eurek-discovery-service" target="17" />
-      <module name="gateway-service" target="17" />
-      <module name="inventory_microservices" target="17" />
+      <module name="order_service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,9 +31,12 @@
       <module name="billing_services" options="-parameters" />
       <module name="configuration_ms" options="-parameters" />
       <module name="customer-services" options="-parameters" />
+      <module name="customer_service" options="-parameters" />
       <module name="eurek-discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="inventory_microservices" options="-parameters" />
+      <module name="inventory_service" options="-parameters" />
+      <module name="order_service" options="-parameters" />
     </option>
   </component>
 </project>

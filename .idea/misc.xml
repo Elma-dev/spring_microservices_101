@@ -10,6 +10,16 @@
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/eurek-discovery-service/pom.xml" />
         <option value="$PROJECT_DIR$/configuration_ms/pom.xml" />
+        <option value="$PROJECT_DIR$/Customer_service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_MS_Basics/billing_services/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_MS_Basics/customer-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_MS_Basics/eurek-discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_MS_Basics/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_MS_Basics/inventory_microservices/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/configuration_ms/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/Customer_service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/inventory_service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/order-service/pom.xml" />
       </list>
     </option>
   </component>

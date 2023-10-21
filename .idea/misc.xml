@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/Customer_service/pom.xml" />
         <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/inventory_service/pom.xml" />
         <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway_service/pom.xml" />
       </list>
     </option>
   </component>

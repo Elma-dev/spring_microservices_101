@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="inventory_service" />
+        <module name="order_service" />
         <module name="gateway-service" />
         <module name="configuration_ms" />
         <module name="billing_services" />
         <module name="customer-services" />
         <module name="inventory_microservices" />
         <module name="eurek-discovery-service" />
+        <module name="gateway_service" />
       </profile>
       <profile name="Annotation profile for Customer_service" enabled="true">
         <sourceOutputDir name="../Customer_service/target/generated-sources/annotations" />
@@ -22,9 +24,6 @@
         <module name="customer_service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="order_service" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -34,6 +33,7 @@
       <module name="customer_service" options="-parameters" />
       <module name="eurek-discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
+      <module name="gateway_service" options="-parameters" />
       <module name="inventory_microservices" options="-parameters" />
       <module name="inventory_service" options="-parameters" />
       <module name="order_service" options="-parameters" />

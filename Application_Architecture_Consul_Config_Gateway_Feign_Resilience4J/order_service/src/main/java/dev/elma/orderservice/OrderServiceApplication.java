@@ -6,7 +6,7 @@ import dev.elma.orderservice.enums.OrderStatus;
 import dev.elma.orderservice.modes.Customer;
 import dev.elma.orderservice.modes.Product;
 import dev.elma.orderservice.repositories.OrderRepository;
-import dev.elma.orderservice.repositories.ProductIemRepository;
+import dev.elma.orderservice.repositories.ProductItemRepository;
 import dev.elma.orderservice.services.CustomerRestClient;
 import dev.elma.orderservice.services.ProductRestClient;
 import lombok.AllArgsConstructor;
@@ -14,7 +14,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.hateoas.PagedModel;
 
 import java.util.Date;
 import java.util.List;
@@ -25,7 +24,7 @@ import java.util.Random;
 @EnableFeignClients
 public class OrderServiceApplication implements CommandLineRunner {
 	private OrderRepository orderRepository;
-	private ProductIemRepository productIemRepository;
+	private ProductItemRepository productIemRepository;
 	private CustomerRestClient customerRestClient;
 	private ProductRestClient productRestClient;
 
@@ -37,6 +36,9 @@ public class OrderServiceApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		List<Customer> allCustomers = customerRestClient.getAllCustomers().getContent().stream().toList();
 		List<Product> allProducts = productRestClient.getAllProducts().getContent().stream().toList();
+		System.out.println(allProducts);
+		System.out.println(allCustomers);
+		
 		Random random = new Random();
 		for(int i=0;i<4;i++){
 			Customer customer = allCustomers.get(random.nextInt(allCustomers.size()));
@@ -59,12 +61,14 @@ public class OrderServiceApplication implements CommandLineRunner {
 									price(1 + random.nextDouble(100)).
 									order(order).
 									build()
-					);
+					);;
 				}
 
 			}
-
+			System.out.println(order);                
 		}
+
+
 
 	}
 }

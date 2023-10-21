@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "customer-service")
 public interface CustomerRestClient {
-    @GetMapping("/customers/{id}")
+    @GetMapping("/customers/{id}?projection=fullCustomer")
     public Customer getCustomersById(@PathVariable Long id);
-    @GetMapping("/customers")
+    @GetMapping("/customers?projection=fullCustomer")
     public PagedModel<Customer> getAllCustomers();
 }

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/configuration_ms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/customer_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/gateway_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/gateway_service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/inventory_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/order_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_MS_Basics/billing_services/src/main/java" charset="UTF-8" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/billing_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/configuration_ms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/customer_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_Architecture_Consul_Config_Gateway_Feign_Resilience4J/gateway_service/src/main/java" charset="UTF-8" />
@@ -17,7 +18,6 @@
     <file url="file://$PROJECT_DIR$/Application_MS_Basics/gateway-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_MS_Basics/inventory_microservices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Application_MS_Basics/inventory_microservices/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/billing_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway_service/src/main/java" charset="UTF-8" />
   </component>
 </project>

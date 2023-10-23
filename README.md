@@ -175,3 +175,16 @@ The project is organized into several modules:
  └── spring_microservices_101.iml
 
 ```
+## Prerequisites Installation
+### Install Consul Using Homebrew
+```bash
+brew install consul
+```
+### Install Vault Using Homebrew
+```Bash
+brew install vault
+```
+### Install Git Using Homebrew
+```
+brew install git
+```

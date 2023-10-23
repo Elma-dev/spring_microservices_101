@@ -14,7 +14,7 @@ The "All You Need About MicroServices" repository contains two applications that
 ![Vault](https://img.shields.io/badge/Vault-FFEC6E.svg?style=for-the-badge&logo=Vault&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
 
-## Project Tree
+## 🌳Project Tree
 
 The project is organized into several modules:
 

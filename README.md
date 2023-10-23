@@ -1,5 +1,5 @@
 # spring_microservices_101
-## About Repo
+## ❕About Repo
 
 The "All You Need About MicroServices" repository contains two applications that will teach you everything there is to know about microservices architects using Spring Boot:
 

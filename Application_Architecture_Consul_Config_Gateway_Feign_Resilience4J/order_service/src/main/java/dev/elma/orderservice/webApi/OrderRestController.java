@@ -52,4 +52,8 @@ public class OrderRestController {
         });
         return order;
     }
+    @GetMapping("/search/{customerId}")
+    public List<Order> findOrdersBycustomerId(@PathVariable Long customerId){
+        return orderRepository.findAllBycustomerId(customerId);
+    }
 }
